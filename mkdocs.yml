@@ -1,0 +1,44 @@
+site_name: Food Ordering Platform Architecture
+site_description: Проектная работа по микросервисной архитектуре платформы оформления заказов еды
+site_author: Pavel Grigoriev
+repo_name: pavelgr1408/structurizr_course_arch
+repo_url: https://github.com/pavelgr1408/structurizr_course_arch
+
+use_directory_urls: true
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Главная: index.md
+  - Архитектура:
+      - System Context: architecture/context.md
+      - Container Diagram: architecture/container.md
+      - Component Diagram — Order Service: architecture/components-order-service.md
+      - Интеграции: architecture/integrations.md
+      - Нефункциональные требования: architecture/quality-attributes.md
+  - Архитектурные решения:
+      - Обзор: decisions/index.md
+      - ADR-0001 Микросервисная архитектура: decisions/0001-use-microservice-architecture.md
+      - ADR-0002 API Gateway: decisions/0002-use-api-gateway.md
+      - ADR-0003 Kafka: decisions/0003-use-kafka.md
+  - Интерактивные диаграммы: diagrams.md
+  - Глоссарий: glossary.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
