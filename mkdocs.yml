@@ -1,8 +1,8 @@
 site_name: Food Ordering Platform Architecture
 site_description: Проектная работа по микросервисной архитектуре платформы оформления заказов еды
 site_author: Pavel Grigoriev
-repo_name: pavelgr1408/structurizr_course_arch
-repo_url: https://github.com/pavelgr1408/structurizr_course_arch
+repo_name: pavelgr1408/architecture_training
+repo_url: https://github.com/pavelgr1408/architecture_training
 
 use_directory_urls: true
 
